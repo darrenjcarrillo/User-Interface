@@ -166,7 +166,10 @@ nav a {
   text-decoration: none;
   padding: 20px;
   color: #808080;
-  font-size: 25px;
+  font-size: 20px;
+}
+nav a:hover {
+  color: black;
 }
 
 .logo {
@@ -175,20 +178,26 @@ nav a {
 }
 
 .callToAction {
+  position: relative;
   display: inline-block;
   width: 50%;
-  margin: 20px auto;
+  margin: 0 auto 20px;
   text-align: center;
 }
 
 .callToAction h1 {
   font-size: 75px;
 }
-.callToAction p {
+.callToAction a {
+  color: black;
+  text-decoration: none;
   font-size: 25px;
-  width: 200px;
+  padding: 5px 20px;
   border: 2px solid black;
-  margin: 20px 0px 50px 200px;
+}
+
+.callToAction a:hover {
+  color: #808080;
 }
 
 .top-img {
@@ -198,6 +207,7 @@ nav a {
 
 .line {
   border-top: 2px solid black;
+  margin: 30px 0px;
 }
 .section1 {
   margin: 30px 0;
